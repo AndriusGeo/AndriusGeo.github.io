@@ -1,0 +1,79 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+  background-color: #FFF5EB;
+  margin: 0;
+  padding: 0;
+}
+
+/* 
+
+  Header
+
+*/
+
+#header {
+  width: 1200px;
+  margin: 0 auto;
+  color:#6A6761;
+  padding: 10px 0;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  padding: 1em 0;
+}
+
+  .logo h1, .logo p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+  }
+
+.navigation {
+  float: right;
+  text-align: right;
+  padding-top: 2em;
+  width: 70%;
+}
+
+  .navigation a {
+    padding: 0.5em 1em;
+    text-decoration: none;
+    letter-spacing: 0.10em;
+  }
+
+  .navigation a:hover {
+    color:#8C8880;
+  }
+
+/* 
+
+  Intro
+
+*/
+
+#intro {
+  height: 700px;
+  background-image: url(../img/bg-img.jpg);
+  background-size: cover;
+  background-position: center;
+  clear: both;
+}
+
+/* 
+  Stilius skirtas mygtukams
+*/
+
+.btn-default {
+  border: 1px solid #6A6761;;
+}
+
+  .btn-default:hover {
+    background-color: #6A6761;
+    color: white;
+  }
