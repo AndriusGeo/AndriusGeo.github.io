@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kauno miesto pažinimas</title>
+    <link rel="stylesheet" href="style/main.css" />
+
+    <!-- Adding google fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <div class="logo">
+        <h1>Kaunas</h1>
+        <p>mano miestas</p>
+      </div>
+
+      <div class="navigation">
+        <a href="index.html">Pagrindinis</a>
+        <a href="">Apie</a>
+        <a href="index.html#map-statistics">Statistika</a>
+        <a href="">Aplinka</a>
+        <a href="">Gyventojams</a>
+        <a href="" class="btn-default">Pranešk</a>
+      </div>
+    </div>
+
+    <div id="map-statistics">
+      <h3>Miesto statistika</h3>
+      <p>
+        susipažinkite su pagrindine miesto demografine ir socialine statistika
+      </p>
+      <div class="iframe-map">
+        <iframe
+          src="https://vu-lt.maps.arcgis.com/apps/instant/reporter/index.html?appid=d6bd85aa48cf4330b6e8c0dac40c7873"
+        ></iframe>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div id="footer-main">
+        <div class="logo">
+          <h1>Kaunas</h1>
+          <p>mano miestas</p>
+        </div>
+      </div>
+      <div id="footer-content"></div>
+    </div>
+  </body>
+</html>
